@@ -2,7 +2,7 @@ import http.client
 
 conn = http.client.HTTPConnection("140.116.245.242:7165")
 
-payload = "{\"name\":\"CK06\",\"lifeExpectancy\":4,\"type\":\"sporting\",\"origin\":\"Taiwan\"}\n\t"
+payload = "{\"name\":\"CK07\",\"lifeExpectancy\":4,\"type\":\"sporting\",\"origin\":\"Taiwan\"}\n\t"
 
 headers = {
     'content-type': "application/json",
